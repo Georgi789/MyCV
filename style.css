@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(226, 242, 180);
+}
+
+/* Changed the style for all h1 tags. */
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;;
+}
+
+/* Changed the style for all h2 tags. */
+h2 {
+    color: rgb(186, 54, 76);
+    margin-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Changed the style for all p tags. */
+p {
+    margin-left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+section, footer {
+    margin-left: 50px;
+}
+
+/* Change my brief section to be more vissualy appealing and organized. */
+.brief-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0 40px 50px;
+}
+
+.brief-container img {
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.brief-text {
+    flex: 1;
+}
+
+#skills {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+#skills ul {
+    list-style: disc inside;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+}
+
+#social-media {
+    margin-left: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color: blueviolet;;
+}
+
+/* Changed the color ofthe links */
+a:hover {
+    color:rgb(86, 7, 20)
+}
